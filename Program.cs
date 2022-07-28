@@ -8,6 +8,7 @@
             EmployeeCheck.CheckEmployeeAttendence(); //UC1
             DailyEmpWage.CheckEmployeeAttendence();  //UC2
             PartTime.AddPartTime();  //UC3
+            PartTimeSwitch.AddPartTimeSwitch(); //UC4
         }
     }
 }
