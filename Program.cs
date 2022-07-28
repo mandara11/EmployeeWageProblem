@@ -5,8 +5,9 @@
         public static void Main(string[] args)
         {
             Console.WriteLine("Welcome to EmployeeWage Program");
-            EmployeeCheck.CheckEmployeeAttendence();
-            DailyEmpWage.CheckEmployeeAttendence();
+            EmployeeCheck.CheckEmployeeAttendence(); //UC1
+            DailyEmpWage.CheckEmployeeAttendence();  //UC2
+            PartTime.AddPartTime();  //UC3
         }
     }
 }
